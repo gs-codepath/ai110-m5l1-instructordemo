@@ -1,5 +1,5 @@
 import random
-
+# Adding a line here 
 MAX_STEPS = 6
 STALL_STOP = None
 COST_PER_STEP = 9.50
@@ -15,7 +15,7 @@ Return a JSON object with keys:
 - "reason": short explanation
 Return JSON only.
 """.strip()
-
+# Adding a line there
 def call_model(prompt, order):
     """
     Simulates an LLM. Sometimes returns clean JSON, sometimes returns messy text.
